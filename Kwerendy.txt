@@ -1,7 +1,7 @@
-Kw1
+Kw1 SELECT tytul FROM `ksiazki` WHERE Wydawnictwo = "Ossolineum"
 
-Kw2
+Kw2 SELECT tytul,nazwisko FROM ksiazki, autorzy WHERE AutorID = IDAutor
 
-Kw3
+Kw3 SELECT idegzemplarz, tytul FROM egzemplarze, ksiazki WHERE ksiazkaid = idksiazki AND dowypozyczenia=0
 
-Kw4
+Kw4 INSERT INTO autorzy VALUES (3, 'Adam', 'Asnyk')
