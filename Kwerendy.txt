@@ -4,4 +4,4 @@ Kw2 SELECT tytul,nazwisko FROM ksiazki, autorzy WHERE AutorID = IDAutor
 
 Kw3 SELECT idegzemplarz, tytul FROM egzemplarze, ksiazki WHERE ksiazkaid = idksiazki AND dowypozyczenia=0
 
-Kw4 INSERT INTO autorzy VALUES (3, 'Adam', 'Asnyk')
+Kw4 INSERT INTO `autorzy`(`IDAutor`, `Imie`, `Nazwisko`) VALUES ('3','Adam','Asnyk')
